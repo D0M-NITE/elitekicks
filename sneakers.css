@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    height: 150vh;
+    width: 100%;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+.webcontainer{
+    height: 150vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border: 1.5px solid white;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+.logo{ 
+    color: white;
+   text-decoration: none;
+   font-size: 31px;
+   font-weight: bolder;
+   margin: 50px;
+   cursor: pointer;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: ;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px ;
+    padding: 35px 0;
+    position: relative;
+    left: 140px;
+    cursor: pointer;
+}
+.navbar img{
+    filter: invert(100%);
+    margin: 50px;
+    cursor: pointer;
+}
+.shopping-cart{
+    height: 33px;
+    width: 33px;
+    position: relative;
+    left: 300px;
+}
+.log-in{
+    height: 30px;
+    width: 30px;
+}
+.featureshoe{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 90px;
+}
+.featureshoe h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 50px 0;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.box1, .box2, .box3, .box4, .box5{
+    height: 170px;
+    width: 290px;
+    background-color: white;
+    margin: 0px 50px 0;
+    border-radius: 10px; 
+    cursor: pointer;  
+}
+.heart{
+    height: 23px;
+    width: 23px;
+    position: relative;
+    left: 170px;
+    top: 10px;
+}
+.shoe{
+    height: 98px;
+    position: absolute;
+    margin: 0 20px 0;
+}
+.shoe2002r, .shoeBalenciaga, .shoeSalehe, .shoePalace, .shoeWmnsAirForce1, .shoeDunkLow, .shoeZoomKobe,.shoeTravisScott{
+    height: 98px;
+    width: 197px;
+    position: absolute;
+}
+.nameshoe{
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    top: 75px;
+    margin: 0 20px 0;
+}
+.money{
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    position: relative;
+    top: 80px;
+    margin: 0 20px 0;
+}
+.featureshoe2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+.featureshoe2 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 0;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.featureshoe3{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: -70px;
+}
+.featureshoe3 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.featureshoe4{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: -150px;
+}
+.featureshoe4 h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}

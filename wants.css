@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+.webcontainer{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border: 1.5px solid white;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+.logo{ 
+    color: white;
+   text-decoration: none;
+   font-size: 31px;
+   font-weight: bolder;
+   margin: 50px;
+   cursor: pointer;
+}
+.navlink{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: ;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px ;
+    padding: 35px 0;
+    position: relative;
+    left: 140px;
+    cursor: pointer;
+}
+.navbar img{
+    filter: invert(100%);
+    margin: 50px;
+    cursor: pointer;
+}
+.shopping-cart{
+    height: 33px;
+    width: 33px;
+    position: relative;
+    left: 300px;
+}
+.log-in{
+    height: 30px;
+    width: 30px;
+}
+.h1content{
+    height: 150px;
+    width: 73%;
+    position: absolute;
+    top: 200px; 
+    left: 250px;
+    color: rgb(86, 84, 84);
+    ;
+}
+.h1content h1{
+    font-size: 50px;
+    font-weight: 100;
+}
